@@ -1,6 +1,6 @@
 import { createContext, useState, useContext, useEffect } from 'react';
 import Web3 from 'web3';
-import { abi, address } from './utils/constant';
+import { abi, address } from '../utils/constants';
 
 const AppContext = createContext();
 

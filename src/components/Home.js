@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { useAppContext } from './AppContext';
+import { useAppContext } from '../contexts/AppContext';
 import toast from 'react-hot-toast';
-import MetaMaskIcon from './assets/images.png';
+import MetaMaskIcon from '../assets/images.png';
 
 const Home = () => {
   const { web3, account, contract, connectToMetaMask, disconnectFromMetaMask, connected, connecting } = useAppContext();
